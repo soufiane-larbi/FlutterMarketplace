@@ -132,7 +132,7 @@ class _ProductCardState extends State<ProductCard> {
                               maxLines: 1,
                               style: TextStyle(
                                   color: MyTheme.accent_color,
-                                  fontSize: 12,
+                                  fontSize: 14,
                                   fontWeight: FontWeight.w600),
                             ),
                           ),
