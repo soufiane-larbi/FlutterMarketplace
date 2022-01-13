@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "5148188032",
+    "project_id": "jibeex-marketplace",
+    "storage_bucket": "jibeex-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5148188032:android:49f7d3d68a12bceb7df565",
+        "android_client_info": {
+          "package_name": "com.jibeex.marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5148188032-rueuco1nma2feuck29sr742nvcdud0dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jibeex.marketplace",
+            "certificate_hash": "bdfaaa20186b85e64967f1aa35527110d2a490e0"
+          }
+        },
+        {
+          "client_id": "5148188032-f4dgcq1sio51adc6f03nt66n8bhvlgm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcmAuaVuVQp8E7FNHjWRmHQwH69MXLx2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5148188032-f4dgcq1sio51adc6f03nt66n8bhvlgm4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "5148188032-qe06k65uh8dlq5iacklcv63gg74mfk1d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jibeex.marketplace"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
