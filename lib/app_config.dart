@@ -17,7 +17,7 @@ class AppConfig {
   //configure this
   //static const DOMAIN_PATH =
   //    "demo.activeitzone.com/ecommerce/"; //localhost
-  static const DOMAIN_PATH = "demo.jibeex.com"; //inside a folder
+  static const DOMAIN_PATH = "jibex.xyz"; //inside a folder
   //static const DOMAIN_PATH = "something.com"; // directly inside the public folder
 
   //do not configure these below

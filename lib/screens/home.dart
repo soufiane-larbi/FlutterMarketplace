@@ -625,32 +625,42 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
             padding: EdgeInsets.all(5),
             child: Row(
               children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      name.length > 13 ? name.substring(0, 13) + '..' : name,
-                      style: TextStyle(
-                        fontWeight: FontWeight.w700,
-                        fontSize: 15,
+                Expanded(
+                  flex: 9,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        name,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w700,
+                          fontSize: 15,
+                        ),
                       ),
-                    ),
-                    Text('Nouvelle Arrivage'),
-                    Expanded(
-                      child: Icon(
-                        Icons.storefront,
-                        color: Colors.black,
+                      Text('Nouvelle Arrivage'),
+                      Expanded(
+                        child: Icon(
+                          Icons.storefront,
+                          color: Colors.black,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-                Expanded(child: Container()),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(5),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: 'assets/placeholder.png',
-                    image: AppConfig.BASE_PATH + banner,
-                    fit: BoxFit.fill,
+                SizedBox(
+                  width: 4,
+                ),
+                Expanded(
+                  flex: 4,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(5),
+                    child: FadeInImage.assetNetwork(
+                      placeholder: 'assets/placeholder.png',
+                      image: AppConfig.BASE_PATH + banner,
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
               ],
@@ -695,7 +705,9 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                   ),
                 ),
                 Text(
-                  name.length > 14 ? name.substring(0, 13) + '..' : name,
+                  name,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 11,
